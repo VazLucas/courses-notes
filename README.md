@@ -1,7 +1,29 @@
+# Notes ✍
+
+<div id="badges">
+  <a href="https://www.linkedin.com/in/lucas-vaz-lisboa/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href> 
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/VazLucas">
+  </a>
+</div>
+
+<div id="header" align="left">
+  <img src="https://media.giphy.com/media/Dh5q0sShxgp13DwrvG/giphy.gif" width="300"/>
+</div>
+
+## Here I will share and save some notes I'd take during some classes. 
+
+### It can be from online or college courses
+
+
+
 <details>
   <summary> Learning to test Spring Boot </summary>
 
 ### What is it for?
+
 
 - Learn Important Concepts behind Test Driven Development 
 - Understand different types of testing - Unit, Integration, Functional 
@@ -23,7 +45,7 @@
 
 ### About
 
--[x] Completed
+- [x] Completed
 
 
 - How to work with GitHub and compare my code with the instructor's code
@@ -37,7 +59,7 @@
 
 ### About
 
--[x] Completed
+- [x] Completed
 
 ### Why testing is great?
 
@@ -90,7 +112,7 @@
 
 ### About
 
--[x] Completed
+- [x] Completed
 
 > Some quotes of **Kent Beck**, one of the **Agile Manifesto** signers and one of the **JUnit** developers, also author
 > of **Extreme Programming Explained** and **Test-Driven Development by Example**
@@ -120,7 +142,7 @@
 
 ### About
 
--[x] Completed
+- [x] Completed
 
 ### JUnit Modules
 
@@ -216,7 +238,7 @@
 
 ### About
 
--[x] Completed
+- [x] Completed
 
 > Example of assertion:
 >
@@ -247,7 +269,7 @@
 
 ### About
 
--[x] Completed
+- [x] Completed
 - You can add tags to your test and create a cofiguration to only run test with that especifically tag
 - You can create test interfaces and implement them onto the classes you would want to test
 - You can inject dependecies to be able to see extra info
@@ -263,7 +285,7 @@
 
 ### About
 
--[x] Completed
+- [x] Completed
 - Test coverage is a handy tool to find out how much of your code is being covered in tests
 
 ---
@@ -274,7 +296,7 @@
 
 ### About
 
--[x] Completed
+- [x] Completed
 - Annotations differences from JUnit 4 to JUnit 5
 
 | JUnit 4      | JUnit 5     |
@@ -293,7 +315,7 @@
 
 ### About
 
--[x] Completed
+- [x] Completed
 - Mockito is important to have light and fast tests not importing and using real files
 
 ### Mockito dependencies in Maven (keep JUnit)
@@ -341,7 +363,7 @@ public class AnnotationMocksTest {
 
 ### About
 
--[x] Completed
+- [x] Completed
 - BDD is more of conceptual way of how you test your code
     - Given → when → then
 
@@ -353,7 +375,7 @@ public class AnnotationMocksTest {
 
 ### About
 
--[x] Completed
+- [x] Completed
 
 ---
 </details>
@@ -363,7 +385,7 @@ public class AnnotationMocksTest {
 
 ### About
 
--[x] Completed
+- [x] Completed
 
 ---
 </details>
@@ -372,7 +394,7 @@ public class AnnotationMocksTest {
   <summary> Section 13 - Spring Frameork Testing Context</summary>
 
 ### About
--[x] Completed
+- [x] Completed
 
 ghf
 
