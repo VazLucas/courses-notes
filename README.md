@@ -392,7 +392,9 @@ public class AnnotationMocksTest {
   <summary> Section 14 - Spring MVC Test </summary>
 
 ### About:
--[ ] Completed
+-[x] Completed
+
+
 ---
 </details>
 
@@ -400,7 +402,7 @@ public class AnnotationMocksTest {
   <summary> Section 15 - Introduction to Testing with Spring Boot </summary>
 
 ### About:
--[ ] Completed
+-[x] Completed
 ---
 </details>
 <details>
