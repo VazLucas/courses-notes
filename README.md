@@ -374,8 +374,17 @@ public class AnnotationMocksTest {
 ### About
 -[x] Completed
 
-ghf
 
+- ``@SpringJUnitConfig`` tells spring which configuration to use then you can set classes ``Config`` to be used as a context
+
+
+- ``@Configuration`` tells spring that this class is a context configuration class
+
+
+- ``@SpringJUnitConfig(classes = yourClass.TestConfig.class)`` tells spring to use an inner class configuration and it shoulg point to a ``@Configuration static class``
+
+
+- ``@ActiveProviles("yourProfile")`` and ``@Profile`` to set up specific profiles to your test and isolate classes and interfaces that are not need and could impact the test result
 ---
 </details>
 
