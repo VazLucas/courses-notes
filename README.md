@@ -414,7 +414,7 @@ public class AnnotationMocksTest {
   <summary> Section 14 - Spring MVC Test </summary>
 
 ### About:
--[x] Completed
+- [x] Completed
 
 
 ---
@@ -424,7 +424,7 @@ public class AnnotationMocksTest {
   <summary> Section 15 - Introduction to Testing with Spring Boot </summary>
 
 ### About:
--[x] Completed
+- [x] Completed
 
 
 - ``@SpringBootTest`` enables spring context
@@ -435,7 +435,7 @@ public class AnnotationMocksTest {
   <summary> Section 16 - Spring MVC Rest Controller </summary>
 
 ### About:
--[x] Completed
+- [x] Completed
 
 
 ---
@@ -445,7 +445,7 @@ public class AnnotationMocksTest {
   <summary> Section 17 - Testing with Wiremock </summary>
 
 ### About:
--[x] Completed
+- [x] Completed
 
 ---
 </details>
@@ -454,7 +454,7 @@ public class AnnotationMocksTest {
   <summary> Section 18 - Spring MVC Rest Docs </summary>
 
 ### About:
--[x] Completed
+- [x] Completed
 
 
 ---
@@ -464,7 +464,7 @@ public class AnnotationMocksTest {
   <summary> Section 19 - Appendix A </summary>
 
 ### About:
--[x] Completed
+- [x] Completed
 
 - A tool for generating API documentation
 - Supports: JUnit 4 and 5 and Spock
