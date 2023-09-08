@@ -413,7 +413,39 @@ public class AnnotationMocksTest {
   <summary> Section 16 - Spring MVC Rest Controller </summary>
 
 ### About:
--[ ] Completed
+-[x] Completed
+
+
+---
+</details>
+</details>
+<details>
+  <summary> Section 17 - Spring MVC Rest Controller </summary>
+
+### About:
+-[x] Completed
+
+
+---
+</details>
+</details>
+<details>
+  <summary> Section 18 - Spring MVC Rest Controller </summary>
+
+### About:
+-[x] Completed
+
+
+---
+</details>
+</details>
+<details>
+  <summary> Section 19 - Spring MVC Rest Controller </summary>
+
+### About:
+-[x] Completed
+
+
 ---
 </details>
 </details>
