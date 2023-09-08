@@ -418,9 +418,18 @@ public class AnnotationMocksTest {
 
 ---
 </details>
-</details>
+
 <details>
-  <summary> Section 17 - Spring MVC Rest Controller </summary>
+  <summary> Section 17 - Testing with Wiremock </summary>
+
+### About:
+-[x] Completed
+
+---
+</details>
+
+<details>
+  <summary> Section 18 - Spring MVC Rest Docs </summary>
 
 ### About:
 -[x] Completed
@@ -428,24 +437,27 @@ public class AnnotationMocksTest {
 
 ---
 </details>
-</details>
+
 <details>
-  <summary> Section 18 - Spring MVC Rest Controller </summary>
+  <summary> Section 19 - Appendix A </summary>
 
 ### About:
 -[x] Completed
 
+- A tool for generating API documentation
+- Supports: JUnit 4 and 5 and Spock
+- Tests will generate snippets that will be transformed to documentation by Asciidoctor
 
----
-</details>
-</details>
-<details>
-  <summary> Section 19 - Spring MVC Rest Controller </summary>
-
-### About:
--[x] Completed
-
-
+~~~xml
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.restdocs</groupId>
+        <artifactId>spring-restdocs-mockmvc</artifactId>
+        <scope>test</scope>
+    </dependency>
+   
+</dependencies>
+  ~~~
 ---
 </details>
 </details>
