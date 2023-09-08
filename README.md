@@ -403,6 +403,10 @@ public class AnnotationMocksTest {
 
 ### About:
 -[x] Completed
+
+
+- ``@SpringBootTest`` enables spring context
+
 ---
 </details>
 <details>
