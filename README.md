@@ -4,34 +4,37 @@
   <a href="https://www.linkedin.com/in/lucas-vaz-lisboa/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
-  <a href> 
+  <a href>
     <img alt="GitHub followers" src="https://img.shields.io/github/followers/VazLucas">
   </a>
 </div>
 
-<div id="header" align="left">
-  <img src="https://media.giphy.com/media/Dh5q0sShxgp13DwrvG/giphy.gif" width="300"/>
+<div id="header">
+  <img src="https://media.giphy.com/media/Dh5q0sShxgp13DwrvG/giphy.gif" alt="dog" width="300"/>
 </div>
 
-## Here I will share and save some notes I'd take during some classes. 
+---
+
+## Here I will share and save some notes I'd take during some classes
+
+---
 
 ### It can be from online or college courses
 
-
+---
 
 <details>
   <summary> Learning to test Spring Boot </summary>
 
 ### What is it for?
 
-
-- Learn Important Concepts behind Test Driven Development 
-- Understand different types of testing - Unit, Integration, Functional 
-- Master the JUnit 5 Testing API 
-- Easily integrate Mockito with JUnit 5 Tests 
-- Migrate JUnit 4 tests to JUnit 5 
-- Test Spring Framework Applications with JUnit 5 and Mockito 
-- Write Unit Tests with Spring MVC Test 
+- Learn Important Concepts behind Test Driven Development
+- Understand different types of testing - Unit, Integration, Functional
+- Master the JUnit 5 Testing API
+- Easily integrate Mockito with JUnit 5 Tests
+- Migrate JUnit 4 tests to JUnit 5
+- Test Spring Framework Applications with JUnit 5 and Mockito
+- Write Unit Tests with Spring MVC Test
 - Learn to use testing features of Spring Boot
 
 ### Where is the course?
@@ -40,21 +43,21 @@
 
 ---
 
-<details> 
+<details>
   <summary>Section 1 - Introduction </summary>
 
 ### About
 
 - [x] Completed
 
-
 - How to work with GitHub and compare my code with the instructor's code
 - What IDE to use
 
 ---
+
 </details>
 
-<details> 
+<details>
   <summary>Section 2 - Introduction to testing software </summary>
 
 ### About
@@ -78,8 +81,8 @@
 
 ### TDD (test) x BDD (behavior)
 
-    1. TDD => write tests firt, code to fix tests, refactor code 
-    2. BDD => when something happens then this happens 
+    1. TDD => write tests firt, code to fix tests, refactor code
+    2. BDD => when something happens then this happens
     Use both!!!
 
 ### Common testing frameworks for Java
@@ -105,9 +108,10 @@
     Should happen after every commit automatically deploying build artifacts after CI tests
 
 ---
+
 </details>
 
-<details> 
+<details>
   <summary>Section 3 - TDD by example </summary>
 
 ### About
@@ -118,7 +122,6 @@
 > of **Extreme Programming Explained** and **Test-Driven Development by Example**
 >
 > "I am not a great programmer, I am a good programmer with great habits"
->
 
 > "If there are forms of testing, like stress and load testing, that finds defect after development is completed, bring
 > them into the development cycle. Run them continuously and automatically"
@@ -135,9 +138,10 @@
     3. Update the code
 
 ---
+
 </details>
 
-<details> 
+<details>
   <summary> Section 4  - Getting Started with JUnit </summary>
 
 ### About
@@ -152,71 +156,71 @@
 
 ### JUnit dependecies in Maven
 
-  ~~~xml
+```xml
 
 <properties>
-    <junit-platform.version>5.3.1</junit-platform.version>
+  <junit-platform.version>5.3.1</junit-platform.version>
 </properties>
-  ~~~
+```
 
-  ~~~xml
+```xml
 
 <dependencies>
-    <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-api</artifactId>
-        <version>${junit-platform.version}</version>
-        <scope>test</scope>
-    </dependency>
-    <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-engine</artifactId>
-        <version>${junit-platform.version}</version>
-        <scope>test</scope>
-    </dependency>
+  <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>${junit-platform.version}</version>
+      <scope>test</scope>
+  </dependency>
+  <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>${junit-platform.version}</version>
+      <scope>test</scope>
+  </dependency>
 </dependencies>
-  ~~~
+```
 
-  ~~~xml
+```xml
 
 <build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.8.0</version>
-        </plugin>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>2.22.0</version>
-            <configuration>
-                <argLine>
-                    --illegal-access=permit
-                </argLine>
-            </configuration>
-        </plugin>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-failsafe-plugin</artifactId>
-            <version>2.22.0</version>
-            <configuration>
-                <argLine>
-                    --illegal-access=permit
-                </argLine>
-            </configuration>
-        </plugin>
-    </plugins>
+  <plugins>
+      <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.8.0</version>
+      </plugin>
+      <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.22.0</version>
+          <configuration>
+              <argLine>
+                  --illegal-access=permit
+              </argLine>
+          </configuration>
+      </plugin>
+      <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-failsafe-plugin</artifactId>
+          <version>2.22.0</version>
+          <configuration>
+              <argLine>
+                  --illegal-access=permit
+              </argLine>
+          </configuration>
+      </plugin>
+  </plugins>
 </build>
-  ~~~
+```
 
 | **Annotations**     | **What it is for**                  |
-|---------------------|-------------------------------------|
+| ------------------- | ----------------------------------- | ---------------------------- |
 | @Test               | Determine a method as a test method |
 | @BeforeEach         | Run a method before each test       |
 | @AfterEach          | Run a method after each test        |
-| @BeforeAll          | Run a method before the tests       | -> has to be a static method
-| @AfterAll           | Run a method after the tests        | -> has to be a static method
+| @BeforeAll          | Run a method before the tests       | -> has to be a static method |
+| @AfterAll           | Run a method after the tests        | -> has to be a static method |
 | @RepeatedTes(times) | Run a test x times                  |
 
 ### Running test from command line with maven
@@ -225,15 +229,15 @@
     2. Move to your directory
     3. Select the mvnw.cmd with two commands: clean and test
 
-~~~shell
+```shell
   mvnw.cmd clean test
-~~~
+```
 
 ---
+
 </details>
 
-
-<details> 
+<details>
   <summary>Section 5 - Testing Java with JUnit 5 </summary>
 
 ### About
@@ -247,7 +251,7 @@
 > In [JUnit](https://junit.org/junit5/docs/current/user-guide/) documentation there are others
 
 - You can use lambda expressions as an if statement when the assertion results in false
-    - assertEquals (2, 2, () -> "Values do not match")
+  - assertEquals (2, 2, () -> "Values do not match")
 - You can use nested assertions with multiples assertAll
   >     assertAll ("message",
   >
@@ -257,14 +261,15 @@
   >        ( ) -> assertAll ("message",
   >               ( ) -> assertEquals (value, value, "message"),
   >               ( ) -> assertEquals (value, value, "message"))
-  >  
+  >
   >       ));
 - You can also use some libraries of JUnit as AssertJ and Hamcrest to give some more options preset
 
 ---
+
 </details>
 
-<details> 
+<details>
   <summary>Section 6 - Advanced JUnit testing</summary>
 
 ### About
@@ -273,14 +278,15 @@
 - You can add tags to your test and create a cofiguration to only run test with that especifically tag
 - You can create test interfaces and implement them onto the classes you would want to test
 - You can inject dependecies to be able to see extra info
-    - TestInfo
-    - RepetitionInfo
+  - TestInfo
+  - RepetitionInfo
 - @ExtendWith allows you to extend JUnit extensions
 
 ---
+
 </details>
 
-<details> 
+<details>
   <summary>Section 7  - Test Execution </summary>
 
 ### About
@@ -289,9 +295,10 @@
 - Test coverage is a handy tool to find out how much of your code is being covered in tests
 
 ---
+
 </details>
 
-<details> 
+<details>
   <summary>Section 8 - JUnit 4 to JUnit 5 migration </summary>
 
 ### About
@@ -300,7 +307,7 @@
 - Annotations differences from JUnit 4 to JUnit 5
 
 | JUnit 4      | JUnit 5     |
-|--------------|-------------|
+| ------------ | ----------- |
 | @Before      | @BeforeAll  |
 | @After       | @AfterAll   |
 | @BeforeClass | @BeforeEach |
@@ -308,9 +315,10 @@
 | @Catgory     | @Tag        |
 
 ---
+
 </details>
 
-<details> 
+<details>
   <summary>  Section 9  - Getting started with Mockito </summary>
 
 ### About
@@ -320,27 +328,27 @@
 
 ### Mockito dependencies in Maven (keep JUnit)
 
-  ~~~xml
+```xml
 
 <dependencies>
-    <dependency>
-        <groupId>org.mockito</groupId>
-        <artifactId>mockito-core</artifactId>
-        <version>${mockito.version}</version>
-        <scope>test</scope>
-    </dependency>
-    <dependency>
-        <groupId>org.mockito</groupId>
-        <artifactId>mockito-junit-jupiter</artifactId>
-        <version>${mockito.version}</version>
-        <scope>test</scope>
-    </dependency>
+  <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>${mockito.version}</version>
+      <scope>test</scope>
+  </dependency>
+  <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-junit-jupiter</artifactId>
+      <version>${mockito.version}</version>
+      <scope>test</scope>
+  </dependency>
 </dependencies>
-  ~~~
+```
 
 ### Creating Mockito Mocks with annotations
 
-~~~java
+```java
 
 public class AnnotationMocksTest {
     @Mock
@@ -351,26 +359,28 @@ public class AnnotationMocksTest {
         MockitoAnnotations.initMocks(this);
     }
 }
-~~~
+```
 
 - `@ExtendWith(MockitoExtension.class)` is an annotation to extend a Mockito
 
 ---
+
 </details>
 
-<details> 
+<details>
   <summary> Section 10  - Behavior Driven Mockito </summary>
 
 ### About
 
 - [x] Completed
 - BDD is more of conceptual way of how you test your code
-    - Given → when → then
+  - Given → when → then
 
 ---
+
 </details>
 
-<details> 
+<details>
   <summary> Section 11 - Advanced Mockito </summary>
 
 ### About
@@ -378,9 +388,10 @@ public class AnnotationMocksTest {
 - [x] Completed
 
 ---
+
 </details>
 
-<details> 
+<details>
   <summary>Section 12  - Testing with Spring Framework </summary>
 
 ### About
@@ -388,98 +399,234 @@ public class AnnotationMocksTest {
 - [x] Completed
 
 ---
+
 </details>
 
-<details> 
+<details>
   <summary> Section 13 - Spring Frameork Testing Context</summary>
 
 ### About
+
 - [x] Completed
 
+- `@SpringJUnitConfig` tells spring which configuration to use then you can set classes `Config` to be used as a context
 
-- ``@SpringJUnitConfig`` tells spring which configuration to use then you can set classes ``Config`` to be used as a context
+- `@Configuration` tells spring that this class is a context configuration class
 
+- `@SpringJUnitConfig(classes = yourClass.TestConfig.class)` tells spring to use an inner class configuration and it shoulg point to a `@Configuration static class`
 
-- ``@Configuration`` tells spring that this class is a context configuration class
+- `@ActiveProviles("yourProfile")` and `@Profile` to set up specific profiles to your test and isolate classes and interfaces that are not need and could impact the test result
 
-
-- ``@SpringJUnitConfig(classes = yourClass.TestConfig.class)`` tells spring to use an inner class configuration and it shoulg point to a ``@Configuration static class``
-
-
-- ``@ActiveProviles("yourProfile")`` and ``@Profile`` to set up specific profiles to your test and isolate classes and interfaces that are not need and could impact the test result
 ---
+
 </details>
 
 <details>
   <summary> Section 14 - Spring MVC Test </summary>
 
-### About:
+### About
+
 - [x] Completed
 
-
 ---
+
 </details>
 
 <details>
   <summary> Section 15 - Introduction to Testing with Spring Boot </summary>
 
-### About:
+### About
+
 - [x] Completed
 
-
-- ``@SpringBootTest`` enables spring context
+- `@SpringBootTest` enables spring context
 
 ---
+
 </details>
 <details>
   <summary> Section 16 - Spring MVC Rest Controller </summary>
 
-### About:
+### About
+
 - [x] Completed
 
-
 ---
+
 </details>
 
 <details>
   <summary> Section 17 - Testing with Wiremock </summary>
 
-### About:
+### About
+
 - [x] Completed
 
 ---
+
 </details>
 
 <details>
   <summary> Section 18 - Spring MVC Rest Docs </summary>
 
-### About:
+### About
+
 - [x] Completed
 
-
 ---
+
 </details>
 
 <details>
   <summary> Section 19 - Appendix A </summary>
 
-### About:
+### About
+
 - [x] Completed
 
 - A tool for generating API documentation
 - Supports: JUnit 4 and 5 and Spock
 - Tests will generate snippets that will be transformed to documentation by Asciidoctor
 
-~~~xml
+```xml
 <dependencies>
     <dependency>
         <groupId>org.springframework.restdocs</groupId>
         <artifactId>spring-restdocs-mockmvc</artifactId>
         <scope>test</scope>
     </dependency>
-   
+
 </dependencies>
-  ~~~
+```
+
 ---
+
 </details>
 </details>
+<br>
+<details><summary>Java Spring Boot Microservices</summary>
+
+### What is it for?
+
+- Develop and design REST API and REST WEB SERVICES with Spring Boot
+- Develop MICROSERVICES with Spring Boot and Spring Cloud
+- Orchestrate microservices with KUBERNETES
+- Create containers for microservices with DOCKER
+- IMPLEMENT Exception Handling, Validation, HATEOAS and filtering for RESTful Web Services.
+- Implement client side load balancing (Ribbon), Dynamic scaling(Eureka Naming Server) and an API Gateway (Zuul)
+- You will set up Centralized Microservices Configuration with Spring Cloud Config Server
+- You will learn to implement Distributed tracing for microservices with Spring Cloud Sleuth and Zipkin
+- You will implement Fault Tolerance for microservices with Hystrix
+- You will understand how to version your RESTful Web Services
+- You will understand how to monitor RESTful Services with Spring Boot Actuator
+- You will understand how to document RESTful Web Services with Swagger
+- You will understand the best practices in designing RESTful web services
+- Using Spring Cloud Bus to exchange messages about Configuration updates
+- Simplify communication with other Microservices using Feign REST Client
+
+### Where is the course?
+
+- [Udemy](https://www.udemy.com/course/microservices-with-spring-boot-and-spring-cloud/)
+
+---
+
+<details>
+<summary> Section 1 - Introduction</summary>
+
+### About
+
+- [x] Completed
+
+</details>
+
+<details>
+<summary> Section 2 - Introduction to web services</summary>
+
+### About
+
+- [x] Completed
+
+> **What is a web service?**
+>
+> It is a software system designed to support **interoperable machine-to-machine** interaction over a **network**
+> 
+
+- Flow of web services interactions
+```mermaid
+  graph LR;
+    A[Application A]-->|Request|D[Web Service];
+    B[Application B]-->|Request|D[Web Service];
+    C[Application C]-->|Request|D[Web Service];
+    D[Web Service]--->|Response|A[Application A];
+    D[Web Service]--->|Response|B[Application B];
+    D[Web Service]--->|Response|C[Application C];
+```
+
+- Popular format for data transfer
+  - JSON 
+  - XML
+
+- Service definition is there to define rules and structures for the requests and responses
+```mermaid
+  graph LR;
+    A{Service-Definition}-->B[Request and Response Format];
+    A{Service-Definition}-->C[Request Structure];
+    A{Service-Definition}-->D[Response Structure];
+    A{Service-Definition}-->E[Endpoints];
+   
+```
+- How is the trasnport done?
+  - Over a URL with HTTP request or
+  - Over a Queue
+
+- What are SOAP and REST?
+  - SOAP => Simple object access protocol
+    - XML request and XML response only
+    - XML structure and no transport restriction
+    - WSDL
+      ```mermaid
+          flowchart TB
+            subgraph SOAP ENVELOPE
+              direction TB
+              subgraph SOAP HEADER
+              end
+              subgraph SOAP BODY
+              end
+            end
+      ```
+  - REST => representation state transfer
+    - Best use of HTTP
+    - Assign a URI to a resource
+    - WADL/Swagger and only uses HTTP for transport
+    - XML, JSON
+
+</details>
+
+<details>
+<summary> Section 3 - Restful Web Services with SpringBoot v2</summary>
+
+### About
+
+- [ ] Completed
+
+</details>
+
+<details>
+<summary> Section 4 - Quick introduction to Micro Services</summary>
+
+### About
+
+- [] Completed
+
+</details>
+
+<details>
+<summary> Section 5 - Microservices with spring cloud v1</summary>
+</details>
+
+<details>
+<summary> Section 6 - Microservices with spring cloud v2</summary>
+</details>
+
+</details>
+<br>
